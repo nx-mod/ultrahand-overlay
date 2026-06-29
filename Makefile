@@ -65,7 +65,7 @@ INCLUDES	:= source common include
 NO_ICON		:= 1
 
 # This location should reflect where you place the libultrahand directory (lib can vary between projects).
-include ${TOPDIR}/lib/libultrahand/ultrahand.mk
+include ${TOPDIR}/../ultrahand-lib/ultrahand.mk
 
 
 #---------------------------------------------------------------------------------
